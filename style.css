@@ -127,6 +127,15 @@ li{
     background-color:rgb(247, 235, 207);
     transition: all 0.5s ease-in;
 }
+ .boxx1:hover{
+    background-color: rgb(115, 205, 142);
+}
+.boxx2:hover{
+    background-color: rgb(18, 93, 186);
+}
+.boxx3:hover{
+    background-color: rgb(42, 168, 161);
+}
 .boxx-all-eliment{
     padding: 15px;
 }
@@ -193,7 +202,6 @@ li{
 }
 .contnetbox-6-2-t{
     padding: 15px;
-    transition: all 0.9s ease-in;
 }
 .image-i{
     transition: all 1s ease-in;
@@ -284,18 +292,8 @@ li{
 .contextbox-8-1{
    padding: 12px;
 }
-.boxx1:hover{
-    transform: scale(1.1);
-}
-.boxx2:hover{
-    transform: scale(1.1);
-}
-.boxx3:hover{
-    transform: scale(1.1);
-}
-.money{
-    transition: all 0.8s ease-in;
-}
+
+
 .money:hover{
-    transform: scale(1.1);
+    background-color: rgb(68, 152, 100);
 }
