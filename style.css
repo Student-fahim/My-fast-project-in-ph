@@ -117,12 +117,15 @@ li{
 }
 .boxx1{
     background-color: rgba(84, 144, 245, 0.2);
+    transition: all 0.9s ease-in;
 }
 .boxx2{
     background-color: rgb(198, 228, 214);
+    transition: all 0.9s ease-in;
 }
 .boxx3{
     background-color:rgb(247, 235, 207);
+    transition: all 0.5s ease-in;
 }
 .boxx-all-eliment{
     padding: 15px;
@@ -190,6 +193,13 @@ li{
 }
 .contnetbox-6-2-t{
     padding: 15px;
+    transition: all 0.9s ease-in;
+}
+.image-i{
+    transition: all 1s ease-in;
+}
+.image-i:hover{
+    transform: scale(1.1);
 }
 .contnetbox-6-2-btn{
     margin-left: 15px;
@@ -198,6 +208,10 @@ li{
     padding: 10px;
     border-radius: 2px;
     border: none;
+}
+.contnetbox-6-2-btn:hover{
+    color: white;
+    background-color: rgb(58, 111, 225);
 }
 .contentbox6-1{
     display: flex;
@@ -269,4 +283,13 @@ li{
 }
 .contextbox-8-1{
    padding: 12px;
+}
+.boxx1:hover{
+    transform: scale(1.1);
+}
+.boxx2:hover{
+    transform: scale(1.1);
+}
+.boxx3:hover{
+    transform: scale(1.1);
 }
