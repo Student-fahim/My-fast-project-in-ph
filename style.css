@@ -105,13 +105,59 @@ li{
     padding-left: 160px;
 }
 .contentbox3{
-   margin-left: auto;
-   margin-right: auto;
-   width: 900px;
-   background-color: #C6E4D6;
+    margin: 0px auto auto 0px;
+    width: 900px;
+    /* background-color: #C6E4D6; */
+    margin-left: auto;
+    margin-right: auto;
 }
-.contentbox3-h2{
-    padding: 10px;
+.contentbox-1-1{
+    /* background-color: rgba(84, 144, 245, 0.2); */
+    gap: 20px;
+}
+.boxx1{
+    background-color: rgba(84, 144, 245, 0.2);
+}
+.boxx2{
+    background-color: rgb(198, 228, 214);
+}
+.boxx3{
+    background-color:rgb(247, 235, 207);
+}
+.boxx-all-eliment{
+    padding: 15px;
+}
+.img-boxx{
+    padding: 12px;
+}
+.btn-boxx1{
+    background-color:rgb(84, 144, 245);
+    color: white;
+    margin: 10px;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+}
+.btn-boxx2{
+    background-color: rgb(9, 161, 92);
+    margin: 10px;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+}
+.btn-boxx3{
+    color: white;
+    background-color: rgb(255, 194, 57);
+    margin: 10px;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+}
+.contentbox3-1{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
 }
 .contentbox4-1{
     margin-left: auto;
