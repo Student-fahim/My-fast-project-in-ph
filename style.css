@@ -293,3 +293,9 @@ li{
 .boxx3:hover{
     transform: scale(1.1);
 }
+.money{
+    transition: all 0.8s ease-in;
+}
+.money:hover{
+    transform: scale(1.1);
+}
